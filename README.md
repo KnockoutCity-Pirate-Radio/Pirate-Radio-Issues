@@ -8,7 +8,7 @@ Welcome to the official issue tracker for the **Pirate Radio** projects.
 
 ## How to submit an Issue
 
-All project-related tasks, bugs, and discussions happen in the "Issues" tab which can be found here: [Pirate Radio Issues](./issues)
+All project-related tasks, bugs, and discussions happen in the "Issues" tab which can be found here: [Pirate Radio Issues](https://github.com/KnockoutCity-Pirate-Radio/Pirate-Radio-Issues/issues)
 
 Before opening a new issue, please **search the existing issues** to see if your problem or suggestion has already been reported to reduce duplicates.
 
