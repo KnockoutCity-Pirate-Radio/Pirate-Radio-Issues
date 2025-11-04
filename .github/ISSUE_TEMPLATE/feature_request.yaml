@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest an idea for a project
+type: feature
+
+title: "[Feature]: "
+labels: ["enhancement"]
+projects: []
+
+assignees:
+  - Tandashi
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this form!
+  
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: What project is this feature related to?
+      options:
+        - 'Pirate Radio: Labs'
+        - 'Pirate Radio: Client'
+        - 'Pirate Radio: Mod Listing'
+        - 'KnockoutCity SDK (TypeScript)'
+    validations:
+      required: true
+  
+  - type: textarea
+    id: what-change
+    attributes:
+      label: What should change?
+      description: Also tell us, what possible solutions you have thought about.
+      placeholder: Tell us what you\'d like to see!
+      value: "A cool new feature should happen!"
+    validations:
+      required: true
